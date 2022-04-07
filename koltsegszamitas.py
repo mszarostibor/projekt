@@ -1,25 +1,22 @@
 def szamitas():
     lista=[]
+    listaosszeg=[]
+    i=1
+    while i<5:
+      a=input("Adjon meg egy terméket: ")
+      lista.append(a)
+      if a=="0":
+        break
+      V=int(input("Adja meg a termék mennyiségét: "))
+      VV=int(input("Adja meg a termék árát: "))
+      listaosszeg.append(V * VV)
+      print("Ha be akkarja fejezni a müveletett akkor írja be 0")
 
-    router = int(input("Egy router ára: ")) * int(input("A routerek száma: "))
-    laptop = int(input("Egy laptop ára: ")) * int(input("A laptopok száma: "))
-    szerver = int(input("Egy szerver ára: ")) * int(input("A szerverek száma: "))
-    pc = int(input("Egy pc ára: ")) * int(input("A pc-k száma: "))
-    mobil = int(input("Egy mobil ára: ")) * int(input("A mobilok száma: "))
-    nyomtato = int(input("Egy nyomtató ára: ")) * int(input("A nyomtatók száma: "))
-
-    lista.append(router)
-    lista.append(laptop)
-    lista.append(szerver)
-    lista.append(pc)
-    lista.append(mobil)
-    lista.append(nyomtato)
-    print("A routerek ára:",lista[0], "Ft")
-    print("A laptopok ára:",lista[1], "Ft")
-    print("A szerverek ára:",lista[2], "Ft")
-    print("A pcék ára:",lista[3], "Ft")
-    print("A mobilok ára:",lista[4], "Ft")
-    print("A nyomtatók ára:",lista[5], "Ft")
-
-
+      
+    for i in range(len(lista)):
+      if lista[i]=="0":
+        break
+      print(lista[i]," összege: ",listaosszeg)
+      
+  
 szamitas()
