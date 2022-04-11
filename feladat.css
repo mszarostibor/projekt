@@ -7,6 +7,8 @@ header{
     height: 100px;
     background: rgba(0, 0, 0, 0.7);
     width: 100%;
+    position: fixed;
+    z-index: 12;
 }
 
 .logo{
@@ -22,7 +24,7 @@ header{
 }
 
 .nav_bar{
-    font-family: 'poppins';
+    font-family: 'poppin';
     font-size: 20px;
     float: right;
     list-style: none;
@@ -34,4 +36,21 @@ header{
 
 .nav_bar li a{
     padding: 15px;
+}
+
+.nav_bar li a:hover{
+    background: #7D7A7A;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    border-width: auto;
+}
+
+.carousel-item img{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
 }
