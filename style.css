@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+   margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
@@ -9,13 +9,13 @@ a:link {
     color: black;
     background-color: transparent;
     text-decoration: none;
-  }  
+}
 
   a:visited {
     color: black;
     background-color: transparent;
     text-decoration: none;
-  }
+}
   
   a:hover {
     color: crimson;
@@ -27,7 +27,7 @@ a:link {
     color: crimson;
     background-color: transparent;
     text-decoration: none;
-  }
+}
 
 .header{
     width: 100%;
@@ -104,4 +104,4 @@ a:link {
     color: white;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
     margin: 5px 0 40px 0;
-}   
+}
